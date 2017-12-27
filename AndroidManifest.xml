@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.something.bishe.learnsoccer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_learnsoccer"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_learnsoccer_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".shootingActivity" />
+        <activity android:name=".passingActivity" />
+        <activity android:name=".dribblingActivity" />
+        <activity android:name=".controlActivity" />
+        <activity android:name=".stepdribbleActivity" />
+        <activity android:name=".soleRoleActivity" />
+        <activity android:name=".insideOutsideActivity" />
+        <activity android:name=".stepoversActivity" />
+        <activity android:name=".cones2Activity" />
+        <activity android:name=".insidePassActivity" />
+        <activity android:name=".outsidePassActivity" />
+        <activity android:name=".drivenPassActivity" />
+        <activity android:name=".loftedPassActivity" />
+        <activity android:name=".passShotActivity" />
+        <activity android:name=".insideCurveShotActivity" />
+        <activity android:name=".outsideCurveShotActivity" />
+        <activity android:name=".powerShotActivity" />
+        <activity android:name=".chipShotActivity" />
+        <activity android:name=".jugglingToesActivity" />
+        <activity android:name=".jugglingLacesActivity" />
+        <activity android:name=".thighJugglingActivity" />
+        <activity android:name=".headJugglingActivity" />
+        <activity android:name=".chestControlActivity" />
+        <activity android:name=".cones" />
+        <activity android:name=".dragActivity" />
+        <activity android:name=".chopActivity" />
+        <activity android:name=".cruyffActivity" />
+        <activity android:name=".dragStepover" />
+        <activity android:name=".volleyActivity" />
+        <activity android:name=".shootingDrill1" />
+        <activity android:name=".shootingDrill2" />
+        <activity android:name=".shootingDrill3" />
+        <activity android:name=".shootingDrill4" />
+        <activity android:name=".insideCurvePass" />
+        <activity android:name=".outsideCurvePass" />
+        <activity android:name=".passingDrill1" />
+        <activity android:name=".passingDrill2" />
+        <activity android:name=".passingDrill3" />
+        <activity android:name=".passingDrill4" />
+        <activity android:name=".firstTouchDrill" />
+        <activity android:name=".triangleTouches" />
+        <activity android:name=".pinchTouches" />
+        <activity android:name=".insideFootControl" />
+        <activity android:name=".rainbow"></activity>
+    </application>
+
+</manifest>
