@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop ="13dp"
+tools:context="com.something.bishe.learnsoccer.passingActivity">
+
+<Button
+    android:id="@+id/insidePass"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="left|center_vertical"
+    android:textSize="17dp"
+    android:text="1. Inside foot pass"
+    android:layout_below="@+id/passingHeader"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="7dp" />
+
+<Button
+    android:id="@+id/outsidePass"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="left|center_vertical"
+    android:textSize="17dp"
+    android:text="2. Outside foot pass"
+    android:layout_below="@+id/insidePass"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/drivenPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="3. Driven pass"
+        android:textSize="17dp"
+        android:layout_below="@+id/outsidePass"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/loftedPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="4. Lofted Pass"
+        android:textSize="17dp"
+        android:layout_below="@+id/drivenPass"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/insideCurvePass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="5. Inside Curve Pass"
+        android:textSize="17dp"
+        android:layout_below="@+id/loftedPass"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/outsideCurvePass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="6. Outside Curve Pass"
+        android:textSize="17dp"
+        android:layout_below="@+id/insideCurvePass"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/passingDrill1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="7. Passing Drill 1"
+        android:textSize="17dp"
+        android:layout_below="@+id/outsideCurvePass"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/passingDrill2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="8. Passing Drill 2"
+        android:textSize="17dp"
+        android:layout_below="@+id/passingDrill1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/passingDrill3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="9. Passing Drill 3"
+        android:textSize="17dp"
+        android:layout_below="@+id/passingDrill2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/passingDrill4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="10. Passing Drill 4"
+        android:textSize="17dp"
+        android:layout_below="@+id/passingDrill3"
+        android:layout_alignParentStart="true" />
+
+
+<TextView
+    android:id="@+id/passingHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+    android:textColor="#800080"
+    android:text="PASSING"
+    android:layout_marginTop="9dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

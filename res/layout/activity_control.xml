@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop ="13dp"
+tools:context="com.something.bishe.learnsoccer.controlActivity">
+
+    <Button
+        android:id="@+id/jugglingToes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="1. Juggling (Toes)"
+        android:textSize="17dp"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/controlHeader"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/jugglingLaces"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="2. Juggling (Laces)"
+        android:textSize="17dp"
+        android:layout_below="@+id/jugglingToes"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/thighJuggling"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="3. Thigh Juggling"
+        android:textSize="17dp"
+        android:layout_below="@+id/jugglingLaces"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/headJuggling"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="4. Head Juggling"
+        android:textSize="17dp"
+        android:layout_below="@+id/thighJuggling"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/chestControl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="5. Chest Control"
+        android:textSize="17dp"
+        android:layout_below="@+id/headJuggling"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/firstTouchDrill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="6. First Touch Drill"
+        android:textSize="17dp"
+        android:layout_below="@+id/chestControl"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/triangleTouches"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="7. Triangle Touches"
+        android:textSize="17dp"
+        android:layout_below="@+id/firstTouchDrill"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/pinchTouches"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="8. Pinch Touches"
+        android:textSize="17dp"
+        android:layout_below="@+id/triangleTouches"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/insideFootControl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="9. Inside Foot Control"
+        android:textSize="17dp"
+        android:layout_below="@+id/pinchTouches"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/rainbow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="10. Rainbow"
+        android:textSize="17dp"
+        android:layout_below="@+id/insideFootControl"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/controlHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTROL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#008000"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

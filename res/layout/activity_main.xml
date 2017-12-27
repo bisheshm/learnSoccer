@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="11dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="13dp"
+    android:background="#E5E5E5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shootingButton"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passingButton"
+        android:background="#F38D8D"
+        android:text="Shooting"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/dribblingButton"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#AFD7EA"
+        android:text="Dribbling"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/passingButton"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dribblingButton"
+        android:background="#C39BD3"
+        android:text="Passing"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/controlButton"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/shootingButton"
+        android:background="#8FCF83"
+        android:text="Control"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="248dp" />
+</RelativeLayout>

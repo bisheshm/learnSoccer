@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop ="13dp"
+tools:context="com.something.bishe.learnsoccer.shootingActivity">
+
+    <Button
+        android:id="@+id/passShot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="1. Pass Shot"
+        android:textSize="17dp"
+        android:layout_below="@+id/controlHeader"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="7dp" />
+
+    <Button
+        android:id="@+id/insideCurveShot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="2. Inside Curve Shot"
+        android:textSize="17dp"
+        android:layout_below="@+id/passShot"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/outsideCurveShot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="3. Outside Curve Shot"
+        android:textSize="17dp"
+        android:layout_below="@+id/insideCurveShot"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/powerShot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="4. Power Shot"
+        android:textSize="17dp"
+        android:layout_below="@+id/outsideCurveShot"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/chipShot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="5. Chip Shot"
+        android:textSize="17dp"
+        android:layout_below="@+id/powerShot"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/volley"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="6. Volley"
+        android:textSize="17dp"
+        android:layout_below="@+id/chipShot"
+        android:layout_alignParentStart="true" />
+
+    <Button
+    android:id="@+id/shootingDrill1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="left|center_vertical"
+    android:text="7. Shooting Drill 1"
+    android:textSize="17dp"
+    android:layout_below="@+id/volley"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/shootingDrill2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="8. Shooting Drill 2"
+        android:textSize="17dp"
+        android:layout_below="@+id/shootingDrill1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/shootingDrill3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="9. Shooting Drill 3"
+        android:textSize="17dp"
+        android:layout_below="@+id/shootingDrill2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/shootingDrill4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="10. Shooting Drill 4"
+        android:textSize="17dp"
+        android:layout_below="@+id/shootingDrill3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/controlHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOOTING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#E54A41"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

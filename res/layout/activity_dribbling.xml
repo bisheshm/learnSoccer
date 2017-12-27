@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop ="13dp"
+    tools:context="com.something.bishe.learnsoccer.dribblingActivity">
+
+    <Button
+        android:id="@+id/stepDribbling"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="1. Step Dribbling"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/controlHeader"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/soleRole"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="2. Sole Role"
+        android:layout_below="@+id/stepDribbling"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/insideOutside"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="3. Inside Outside"
+        android:textSize="17dp"
+        android:layout_below="@+id/soleRole"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stepovers"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:text="4. Stepovers"
+        android:textSize="17dp"
+        android:layout_below="@+id/insideOutside"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/cones"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="5. Cones"
+        android:layout_below="@+id/stepovers"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/drag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="6. Drag"
+        android:layout_below="@+id/cones"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/chop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="7. Chop"
+        android:layout_below="@+id/drag"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/cruyff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="8. Cruyff Turn"
+        android:layout_below="@+id/chop"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/dragStepover"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="9. Drag Stepover"
+        android:layout_below="@+id/cruyff"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/cones2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"
+        android:textSize="17dp"
+        android:text="10. Cones 2"
+        android:layout_below="@+id/dragStepover"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/controlHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#1047BA"
+        android:text="DRIBBLING"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+
+</RelativeLayout>
